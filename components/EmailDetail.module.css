@@ -1,0 +1,180 @@
+.emailDetail {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  overflow-y: auto;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.noSelection {
+  text-align: center;
+  padding: 100px 20px;
+  color: #999;
+}
+
+.noSelection h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.emailAddress {
+  margin-top: 30px;
+  padding: 20px;
+  background: #f9fafb;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.emailAddressLabel {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.emailAddressValue {
+  display: block;
+  background: white;
+  padding: 12px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #2563eb;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 10px;
+  word-break: break-all;
+}
+
+.copyBtn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.copyBtn:hover {
+  background: #1d4ed8;
+}
+
+.copyBtn:active {
+  background: #1e40af;
+}
+
+.emailHeader h2 {
+  font-size: 24px;
+  color: #111;
+  margin-bottom: 15px;
+}
+
+.emailMeta {
+  background: #f9fafb;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.metaRow {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.metaRow:last-child {
+  margin-bottom: 0;
+}
+
+.metaRow strong {
+  display: inline-block;
+  width: 60px;
+  color: #666;
+}
+
+.emailTabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.tabBtn {
+  background: transparent;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: all 0.2s;
+}
+
+.tabBtn:hover {
+  color: #2563eb;
+}
+
+.tabBtn.active {
+  color: #2563eb;
+  border-bottom-color: #2563eb;
+  font-weight: 600;
+}
+
+.emailBody {
+  min-height: 300px;
+}
+
+.tabContent {
+  display: block;
+}
+
+.emailFrameContainer {
+  width: 100%;
+  min-height: 400px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: white;
+  overflow: hidden;
+  position: relative;
+}
+
+.emailFrame {
+  width: 100%;
+  min-height: 400px;
+  border: none;
+  background: white;
+  display: block;
+}
+
+.tabContent pre {
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 13px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.attachments {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f9fafb;
+  border-radius: 8px;
+}
+
+.attachments h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.attachments ul {
+  list-style: none;
+}
+
+.attachments li {
+  padding: 8px 0;
+  font-size: 14px;
+  color: #666;
+}
